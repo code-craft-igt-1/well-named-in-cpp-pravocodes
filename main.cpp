@@ -3,19 +3,7 @@
 #include "Tests.h"
 #include "ColorEnums.h"
 #include <iomanip>
-
-void printMannual(){
-    int cnt = 1;
-    std::cout << std::setw(5) << "No" << std::setw(15) << "Major Color" << std::setw(15) << "Minor Color" << std::endl;
-    std::cout << "-----------------------------------------" << std::endl;
-    for(int i=0;i<5;i++){
-        for(int j=0;j<5;j++){
-            std::cout << std::setw(5) << cnt << std::setw(15) << MajorColorNames[i] << std::setw(15) << MinorColorNames[j] << std::endl;
-            
-            cnt++;
-        }
-    }
-}
+#include "PrintColorMannual.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
@@ -28,4 +16,3 @@ int main() {
 
     return 0;
 }
-

@@ -2,6 +2,7 @@
 #include <cassert>
 #include "Tests.h"
 #include "ColorPair.h"
+
 void testNumberToPair(int pairNumber,
     MajorColor expectedMajor,
     MinorColor expectedMinor)

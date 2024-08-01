@@ -1,5 +1,6 @@
 #include "ColorPair.h"
 #include "ColorEnums.h"
+
 ColorPair::ColorPair(MajorColor major, MinorColor minor) : majorColor(major), minorColor(minor) {}
 
 MajorColor ColorPair::getMajor() { return majorColor; }
