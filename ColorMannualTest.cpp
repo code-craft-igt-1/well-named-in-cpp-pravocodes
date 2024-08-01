@@ -34,7 +34,3 @@ void testMannual(){
     std::cout<<"Color Mannual test passes successfully"<<std::endl;
 }
 
-
-int main(){
-    testMannual();
-}

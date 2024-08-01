@@ -4,6 +4,7 @@
 #include "ColorEnums.h"
 #include <iomanip>
 #include "PrintColorMannual.h"
+#include "ColorMannualTest.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
@@ -13,6 +14,9 @@ int main() {
     testPairToNumber(VIOLET, SLATE, 25);
 
     printMannual();
+
+    testMannual();
+    
 
     return 0;
 }
