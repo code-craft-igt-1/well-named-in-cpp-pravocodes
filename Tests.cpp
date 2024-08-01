@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cassert>
 #include "Tests.h"
-#include "ColorInfo.h"
 #include "ColorPair.h"
 void testNumberToPair(int pairNumber,
     MajorColor expectedMajor,
